@@ -82,10 +82,11 @@ public class Nyugta4 {
     private static void eurobanKiir(int fizetendo) {
         double euro = fizetendo / 350.0;
         final String eur = "\u20ac";
-        System.out.printf("%10s%7.2f %s\n","", euro, eur);//
+
     }
     
-    private static void datumEsNevKiirasa() {
+    private static void datumEsNevKiirasa() {  
+        
         System.out.println("");
         vonal('_', 7, false);
         vonal(' ', 6, false);
