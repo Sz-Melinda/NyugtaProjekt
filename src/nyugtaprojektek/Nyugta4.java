@@ -34,7 +34,7 @@ public class Nyugta4 {
         double euro = fizetendo / 350.0;
         final String eur = "\u20ac";
         
-        System.out.printf("%10s%7.2f %s\n","", euro, eur);//
+        System.out.printf("%10s%7.2f %s\n","", euro, eur);
         
         System.out.println(szaggatottVonal);
         

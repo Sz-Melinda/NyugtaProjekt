@@ -9,27 +9,27 @@ azt kiszervezzük változóba és erre hivatkozunk
 public class Nyugta2 {
 
     public static void main(String[] args) {
-        //System.out.println("******************");
+        
         String csillagok = "*******************";
         System.out.println(csillagok);
         System.out.println("     Nyugta 2");
-        //System.out.println("******************");
+        
         System.out.println(csillagok);
         
         String huf = "Ft";
         int tetel1 = 350, tetel2 = 90, tetel3 = 1320;
-        //System.out.println("Tétel 1:     350 Ft");
+        
         System.out.printf("Tétel 1:     %d %s\n", tetel1, huf);
-        //System.out.println("Tétel 2:      90 Ft");
+        
         System.out.printf("Tétel 1:      %d %s\n", tetel2, huf);
-        //System.out.println("Tétel 3:    1320 Ft");
+        
         System.out.printf("Tétel 3:    %d %s\n", tetel3, huf);
 
-        //System.out.println("==================");
+        
         String duplaVonal = "===================";
         System.out.println(duplaVonal);
         
-        //System.out.println("Összesen:   1090 Ft");
+        
         int osszesen = tetel1 + tetel2 + tetel3;
         System.out.printf("Összesen:   %d %s\n", osszesen, huf);
         
